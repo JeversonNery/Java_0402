@@ -5,7 +5,6 @@
  */
 package java_0402;
 
-import java.util.Scanner;
 import java.text.NumberFormat;
 import javax.swing.JOptionPane;
 
@@ -19,7 +18,6 @@ public class Java_0402 {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
         NumberFormat nf = NumberFormat.getCurrencyInstance();
         
         String nm = JOptionPane.showInputDialog(null, "Nome completo: ");
